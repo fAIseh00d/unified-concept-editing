@@ -426,7 +426,7 @@ if __name__ == '__main__':
         print_text+=f'-preserve_false'
     if preserve_scale is None:
         preserve_scale = max(0.1, 1/len(retain_texts))
-    sd14="CompVis/stable-diffusion-v1-4"
+    sd14="fAIseh00d/Realistic_Vision_V5.1_noVAE"
     sd21='stabilityai/stable-diffusion-2-1-base'
     if args.base=='1.4':
         model_version = sd14
